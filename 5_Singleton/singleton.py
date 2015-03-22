@@ -1,8 +1,7 @@
-class _Singleton(object):
-    pass
-
-
 class Singleton(object):
+    
+    class _Singleton(object):
+        pass
 
     _instance = _Singleton()
 
